@@ -1,0 +1,1002 @@
+[
+    {
+        "qid": "topoqa_1",
+        "question": "The material's formula is Tm2Fe17, and its spacegroup number is 194. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0, 1, 0, 2], (B): [5, 8], (C): [2], (D): [1, 0, 1]",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_2",
+        "question": "The material's formula is Sr2SmCu3(PbO4)2, and its spacegroup number is 123. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 2, 3], (B): [0, 2, 0], (C): [4], (D): [1, 3, 3]",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_3",
+        "question": "The material's formula is InAsF6, what is the energy gap of this material without spin-orbit coupling? (A): 4.79, (B): 4.56, (C): 4.3, (D): 4.52",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_4",
+        "question": "The material's formula is PrB4, and its spacegroup number is 127. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 7], (B): [2, 3], (C): [0, 0, 1, 2], (D): [3, 1]",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_5",
+        "question": "The material's formula is Co2Sn, and its spacegroup number is 194. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 1, 2], (B): [6], (C): [5, 11], (D): [0, 7]",
+        "answer": "B"
+    },
+    {
+        "qid": "topoqa_6",
+        "question": "The material's formula is CaZn, and its spacegroup number is 63. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 5], (B): [1, 1, 0, 2], (C): [0, 0, 1, 0], (D): [1, 3, 2]",
+        "answer": "B"
+    },
+    {
+        "qid": "topoqa_7",
+        "question": "The material's formula is Er4Si2S3O7, and its spacegroup number is 141. With spin-orbit coupling, which topological class does this material belong to? (A): High Symmetry Line Semi-Metals, (B): Topological Crystalline Insulators, (C): Generic Momemtum Semi-Metals, (D): Trivial Insulator",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_8",
+        "question": "The material's formula is K2PdO2, and its spacegroup number is 71. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [3, 9], (B): [11], (C): [0, 7], (D): [0, 0, 0, 0]",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_9",
+        "question": "The material's formula is CaAs3, and its spacegroup number is 2. Without spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0, 1, 0, 1], (B): [0, 1, 0, 3], (C): [0, 1, 1, 1], (D): [1, 0, 0, 1]",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_10",
+        "question": "The material's formula is In2Rh3S2, what is the energy gap of this material without spin-orbit coupling? (A): 0.59, (B): 0.93, (C): 0.93, (D): 0",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_11",
+        "question": "The material's formula is Ba2Nd2Ti2Cu2O11, and its spacegroup number is 123. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0, 0], (B): [3], (C): [0, 3, 5], (D): [0, 4]",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_12",
+        "question": "The material's formula is IrN, what is the energy gap of this material without spin-orbit coupling? (A): 0.58, (B): 0.99, (C): 0.86, (D): 0",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_13",
+        "question": "The material's formula is Ca2As3Pb3ClO12, what is the energy gap of this material without spin-orbit coupling? (A): 3.43, (B): 3.19, (C): 3.47, (D): 4.09",
+        "answer": "B"
+    },
+    {
+        "qid": "topoqa_14",
+        "question": "The material's formula is Ba3BPO3, and its spacegroup number is 194. Without spin-orbit coupling, which topological class does this material belong to? (A): Generic Momemtum Semi-Metals, (B): Trivial Insulator, (C): Topological Crystalline Insulators, (D): Topological Insulators",
+        "answer": "B"
+    },
+    {
+        "qid": "topoqa_15",
+        "question": "The material's formula is Th7Ir3, and its spacegroup number is 186. With spin-orbit coupling, which topological class does this material belong to? (A): High Symmetry Line Semi-Metals, (B): Topological Crystalline Insulators, (C): High Symmetry Point Semi-Metals, (D): Generic Momemtum Semi-Metals",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_16",
+        "question": "The material's formula is NaMg4(AsO4)3, what is the energy gap of this material without spin-orbit coupling? (A): 3.65, (B): 3.95, (C): 4.62, (D): 4.04",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_17",
+        "question": "The material's formula is Ni3(PbSe)2, and its spacegroup number is 166. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 0], (B): [4, 7], (C): [1, 1, 1, 0], (D): [0, 1, 0, 3]",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_18",
+        "question": "The material's formula is NaV2P2(H4O7)2, and its spacegroup number is 2. Without spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1], (B): [0, 1, 1, 0], (C): [0, 0, 1, 1], (D): [1, 1, 0, 3]",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_19",
+        "question": "The material's formula is Sr2NiOsO6, and its spacegroup number is 87. Without spin-orbit coupling, which topological class does this material belong to? (A): Trivial Insulator, (B): Generic Momemtum Semi-Metals, (C): High Symmetry Line Semi-Metals, (D): Topological Crystalline Insulators",
+        "answer": "B"
+    },
+    {
+        "qid": "topoqa_20",
+        "question": "The material's formula is LaB4, and its spacegroup number is 127. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0, 6], (B): [4, 7], (C): [3, 7], (D): [0, 1, 0]",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_21",
+        "question": "The material's formula is Ga, and its spacegroup number is 166. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [3, 7], (B): [3], (C): [2, 6], (D): [1, 1, 1, 2]",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_22",
+        "question": "The material's formula is HfPd3, and its spacegroup number is 221. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 2], (B): [2, 3], (C): [1, 1, 0, 2], (D): [4, 8]",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_23",
+        "question": "The material's formula is TiB2, and its spacegroup number is 191. With spin-orbit coupling, which topological class does this material belong to? (A): Topological Crystalline Insulators, (B): Topological Insulators, (C): High Symmetry Point Semi-Metals, (D): Trivial Insulator",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_24",
+        "question": "The material's formula is Sb16Te3, and its spacegroup number is 166. Without spin-orbit coupling, which topological class does this material belong to? (A): Trivial Insulator, (B): High Symmetry Point Semi-Metals, (C): High Symmetry Line Semi-Metals, (D): Generic Momemtum Semi-Metals",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_25",
+        "question": "The material's formula is Ti, and its spacegroup number is 191. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 1, 0, 0], (B): [3, 7], (C): [1, 0, 0, 2], (D): [0, 9]",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_26",
+        "question": "The material's formula is SiNi3, and its spacegroup number is 221. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [3, 4], (B): [0, 0, 0, 3], (C): [3, 6], (D): [0, 0, 1, 3]",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_27",
+        "question": "The material's formula is HfSe2, and its spacegroup number is 164. Without spin-orbit coupling, which topological class does this material belong to? (A): Trivial Insulator, (B): Topological Insulators, (C): High Symmetry Point Semi-Metals, (D): Topological Crystalline Insulators",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_28",
+        "question": "The material's formula is CuH10SeO9, and its spacegroup number is 2. Without spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 0, 0, 0], (B): [0, 0, 1, 0], (C): [0, 0, 1, 3], (D): [1]",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_29",
+        "question": "The material's formula is LaAl2BRu2, and its spacegroup number is 123. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0, 3, 3], (B): [0, 0], (C): [0, 0, 1, 0], (D): [0, 1, 7]",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_30",
+        "question": "The material's formula is SmCdGa, and its spacegroup number is 189. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [3, 8], (B): [4, 2], (C): [1, 2, 7], (D): [1, 0]",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_31",
+        "question": "The material's formula is Rb7NaZn2O6, which crystal system does this material belong to? (A): Cubic, (B): Orthorhombic, (C): Trigonal, (D): Triclinic",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_32",
+        "question": "The material's formula is TaInS2, and its spacegroup number is 187. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 2, 3], (B): [1, 0, 1, 0], (C): [0, 2], (D): [0, 0, 1, 0]",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_33",
+        "question": "The material's formula is LaB2Ir3, and its spacegroup number is 191. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0, 2], (B): [3, 9], (C): [3, 3], (D): [1, 0, 0, 3]",
+        "answer": "B"
+    },
+    {
+        "qid": "topoqa_34",
+        "question": "The material's formula is Li13Si4, and its spacegroup number is 55. Without spin-orbit coupling, which topological class does this material belong to? (A): High Symmetry Point Semi-Metals, (B): Trivial Insulator, (C): High Symmetry Line Semi-Metals, (D): Generic Momemtum Semi-Metals",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_35",
+        "question": "The material's formula is C2NClO, and its spacegroup number is 2. Without spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0, 1, 1, 0], (B): [1, 1, 0, 3], (C): [1, 1, 0, 0], (D): [0, 1, 1, 3]",
+        "answer": "B"
+    },
+    {
+        "qid": "topoqa_36",
+        "question": "The material's formula is Ga5Rh3, and its spacegroup number is 2. Without spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0, 0, 1, 3], (B): [1, 1, 0, 1], (C): [1, 0, 0, 0], (D): [0, 1, 0, 0]",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_37",
+        "question": "The material's formula is BRh, and its spacegroup number is 194. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [11], (B): [3, 4], (C): [0, 0, 1, 3], (D): [7]",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_38",
+        "question": "The material's formula is TiBe, and its spacegroup number is 221. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [3, 5], (B): [1, 1, 1], (C): [1, 3], (D): [0, 7]",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_39",
+        "question": "The material's formula is NbNiTe2, and its spacegroup number is 53. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [5, 11], (B): [0, 1, 0, 1], (C): [0, 0, 0], (D): [0, 1, 0, 3]",
+        "answer": "B"
+    },
+    {
+        "qid": "topoqa_40",
+        "question": "The material's formula is Tl6TeO12, and its spacegroup number is 148. Without spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0, 1, 0, 3], (B): [1, 1, 0, 3], (C): [0], (D): [0, 0, 0, 3]",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_41",
+        "question": "The material's formula is Ni3GeC, and its spacegroup number is 221. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [3, 0], (B): [0, 3, 6], (C): [0, 0, 1, 3], (D): [0, 1, 2]",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_42",
+        "question": "The material's formula is H2SO4, which crystal system does this material belong to? (A): Hexagonal, (B): Cubic, (C): Monoclinic, (D): Tetragonal",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_43",
+        "question": "The material's formula is Tm2Mo2C3, and its spacegroup number is 12. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0, 7], (B): [1, 1, 1, 2], (C): [2, 9], (D): [3]",
+        "answer": "B"
+    },
+    {
+        "qid": "topoqa_44",
+        "question": "The material's formula is TePdI, and its spacegroup number is 131. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 0, 2], (B): [1, 1, 0, 3], (C): [3, 9], (D): [7]",
+        "answer": "B"
+    },
+    {
+        "qid": "topoqa_45",
+        "question": "The material's formula is BaMg4Si3, and its spacegroup number is 123. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [3, 2], (B): [0, 0, 3], (C): [1, 1, 1, 3], (D): [1, 1, 2]",
+        "answer": "B"
+    },
+    {
+        "qid": "topoqa_46",
+        "question": "The material's formula is Ni(TePd)2, what is the energy gap of this material without spin-orbit coupling? (A): 0.23, (B): 0, (C): 0.35, (D): 0.47",
+        "answer": "B"
+    },
+    {
+        "qid": "topoqa_47",
+        "question": "The material's formula is CaSiNi2, and its spacegroup number is 194. With spin-orbit coupling, which topological class does this material belong to? (A): Trivial Insulator, (B): High Symmetry Line Semi-Metals, (C): Topological Insulators, (D): Topological Crystalline Insulators",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_48",
+        "question": "The material's formula is NdTe2ClO5, and its spacegroup number is 123. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0, 0, 7], (B): [3, 4], (C): [3, 9], (D): [1, 0, 1, 2]",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_49",
+        "question": "The material's formula is Pr8(BCl)7, and its spacegroup number is 2. Without spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0, 1, 0, 3], (B): [0, 0, 1, 0], (C): [0, 0, 0, 2], (D): [0, 1, 1, 1]",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_50",
+        "question": "The material's formula is Rb3BS3, which crystal system does this material belong to? (A): Monoclinic, (B): Orthorhombic, (C): Tetragonal, (D): Cubic",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_51",
+        "question": "The material's formula is YbSi2, and its spacegroup number is 191. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [4], (B): [2, 5], (C): [1, 0, 1, 2], (D): [3, 8]",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_52",
+        "question": "The material's formula is Fe7Mo6, and its spacegroup number is 166. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0, 0, 0, 1], (B): [4, 5], (C): [1, 1, 1, 1], (D): [0, 2, 6]",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_53",
+        "question": "The material's formula is Ti4O7, and its spacegroup number is 2. Without spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 1, 1, 2], (B): [0, 0, 0, 3], (C): [1, 1, 1, 3], (D): [1, 1, 1, 0]",
+        "answer": "B"
+    },
+    {
+        "qid": "topoqa_54",
+        "question": "The material's formula is TbMg, what is the energy gap of this material without spin-orbit coupling? (A): 0, (B): 0.67, (C): 0.84, (D): 0.56",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_55",
+        "question": "The material's formula is LaSc3(BO3)4, which crystal system does this material belong to? (A): Trigonal, (B): Monoclinic, (C): Orthorhombic, (D): Cubic",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_56",
+        "question": "The material's formula is Ti2CdC, and its spacegroup number is 194. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0, 9], (B): [0, 1, 1, 2], (C): [4], (D): [3, 5]",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_57",
+        "question": "The material's formula is SrGa2, and its spacegroup number is 191. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 1, 0, 2], (B): [0, 1, 0], (C): [5, 0], (D): [4]",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_58",
+        "question": "The material's formula is HoBi2IO4, and its spacegroup number is 123. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0, 0, 0], (B): [0, 3, 3], (C): [2, 11], (D): [11]",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_59",
+        "question": "The material's formula is YbSb2, and its spacegroup number is 63. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [5, 0], (B): [9], (C): [1, 1, 0, 1], (D): [0, 0, 0, 0]",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_60",
+        "question": "The material's formula is FeSi2, and its spacegroup number is 123. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 2, 1], (B): [2, 4], (C): [2, 11], (D): [0, 1, 2]",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_61",
+        "question": "The material's formula is ZrB2, and its spacegroup number is 191. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0, 1, 1, 2], (B): [0, 8], (C): [10], (D): [3, 8]",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_62",
+        "question": "The material's formula is CaGe2, and its spacegroup number is 164. Without spin-orbit coupling, which topological class does this material belong to? (A): Topological Crystalline Insulators, (B): Trivial Insulator, (C): Generic Momemtum Semi-Metals, (D): High Symmetry Line Semi-Metals",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_63",
+        "question": "The material's formula is Ca2Hf7O16, and its spacegroup number is 148. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [2, 7], (B): [0, 3, 5], (C): [0, 5], (D): [0, 0, 0, 0]",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_64",
+        "question": "The material's formula is CuSnAu, and its spacegroup number is 139. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 0, 0, 3], (B): [1, 1], (C): [0, 0], (D): [9]",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_65",
+        "question": "The material's formula is AlAu, and its spacegroup number is 221. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0, 0, 3], (B): [8], (C): [3, 6], (D): [1, 3, 3]",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_66",
+        "question": "The material's formula is SnPd3C, and its spacegroup number is 221. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [4, 5], (B): [3, 1], (C): [3, 0], (D): [1, 0, 5]",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_67",
+        "question": "The material's formula is Ca(PtO2)2, what is the energy gap of this material without spin-orbit coupling? (A): 0.8, (B): 0.24, (C): 0, (D): 0.84",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_68",
+        "question": "The material's formula is CuMoO4, and its spacegroup number is 2. Without spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 0, 1, 0], (B): [0, 1, 0, 2], (C): [0, 1, 1, 2], (D): [0, 0, 1, 0]",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_69",
+        "question": "The material's formula is MoC, and its spacegroup number is 187. Without spin-orbit coupling, which topological class does this material belong to? (A): High Symmetry Point Semi-Metals, (B): Topological Crystalline Insulators, (C): Topological Insulators, (D): Trivial Insulator",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_70",
+        "question": "The material's formula is LaAs, and its spacegroup number is 225. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [5], (B): [0, 3, 4], (C): [2, 5], (D): [11]",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_71",
+        "question": "The material's formula is Pt2W, and its spacegroup number is 71. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 1, 1, 1], (B): [1, 0, 1, 2], (C): [0, 1, 1, 3], (D): [4]",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_72",
+        "question": "The material's formula is Nd2Sn3, and its spacegroup number is 2. Without spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 1, 1, 3], (B): [1, 0, 0, 0], (C): [1, 1, 0, 1], (D): [1, 1, 1, 2]",
+        "answer": "B"
+    },
+    {
+        "qid": "topoqa_73",
+        "question": "The material's formula is EuBO3, and its spacegroup number is 2. Without spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 0, 0, 1], (B): [1, 0, 1, 0], (C): [0, 1, 1, 1], (D): [1, 0, 1, 0]",
+        "answer": "B"
+    },
+    {
+        "qid": "topoqa_74",
+        "question": "The material's formula is Ba11Bi10, and its spacegroup number is 139. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0, 4], (B): [0, 0, 0, 2], (C): [0, 1, 7], (D): [0, 0, 0, 0]",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_75",
+        "question": "The material's formula is In3Cu7, and its spacegroup number is 2. Without spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 1, 1, 3], (B): [0, 0, 0, 2], (C): [0, 0, 1, 3], (D): [0, 0, 0, 1]",
+        "answer": "B"
+    },
+    {
+        "qid": "topoqa_76",
+        "question": "The material's formula is CaCuAs2O7, and its spacegroup number is 14. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0, 2, 4], (B): [1, 0, 2], (C): [1, 0, 0, 2], (D): [3]",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_77",
+        "question": "The material's formula is Be3N2, and its spacegroup number is 194. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0], (B): [2], (C): [1, 1, 6], (D): [0, 3]",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_78",
+        "question": "The material's formula is LiAg, and its spacegroup number is 221. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [3, 6], (B): [3, 0], (C): [0, 1, 0, 2], (D): [0, 1, 0]",
+        "answer": "B"
+    },
+    {
+        "qid": "topoqa_79",
+        "question": "The material's formula is SrPt2, and its spacegroup number is 227. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [2, 4], (B): [1, 2, 6], (C): [0, 3], (D): [2]",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_80",
+        "question": "The material's formula is MgNi, and its spacegroup number is 123. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 1, 3], (B): [2, 0], (C): [2, 7], (D): [0, 0, 7]",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_81",
+        "question": "The material's formula is Th2Ru6C5, and its spacegroup number is 127. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 7], (B): [3, 4], (C): [2, 3], (D): [0, 3, 4]",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_82",
+        "question": "The material's formula is Ba2YTlCu2O7, and its spacegroup number is 123. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 2, 6], (B): [0, 4], (C): [3, 7], (D): [5, 0]",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_83",
+        "question": "The material's formula is Tb(BO2)3, what is the energy gap of this material without spin-orbit coupling? (A): 5.79, (B): 5.47, (C): 5.91, (D): 5.87",
+        "answer": "B"
+    },
+    {
+        "qid": "topoqa_84",
+        "question": "The material's formula is Ca3Sc2(GeO4)3, and its spacegroup number is 230. With spin-orbit coupling, which topological class does this material belong to? (A): Topological Insulators, (B): High Symmetry Line Semi-Metals, (C): Trivial Insulator, (D): Topological Crystalline Insulators",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_85",
+        "question": "The material's formula is TiPt8, and its spacegroup number is 139. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1, 0, 2], (B): [2, 3], (C): [0, 1, 1, 0], (D): [0, 6]",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_86",
+        "question": "The material's formula is AsSe, and its spacegroup number is 14. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0, 9], (B): [0, 0, 0, 0], (C): [4, 8], (D): [2, 0]",
+        "answer": "B"
+    },
+    {
+        "qid": "topoqa_87",
+        "question": "The material's formula is NbCoSi, and its spacegroup number is 62. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [3, 6], (B): [4, 2], (C): [3], (D): [0, 1, 0, 3]",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_88",
+        "question": "The material's formula is Sr5(AlSb3)2, and its spacegroup number is 62. Without spin-orbit coupling, which topological class does this material belong to? (A): Trivial Insulator, (B): High Symmetry Point Semi-Metals, (C): Generic Momemtum Semi-Metals, (D): High Symmetry Line Semi-Metals",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_89",
+        "question": "The material's formula is MoPt, and its spacegroup number is 51. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [4, 9], (B): [1, 3], (C): [1, 3, 2], (D): [0, 1, 1, 2]",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_90",
+        "question": "The material's formula is YSeF, and its spacegroup number is 62. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0, 1, 0, 1], (B): [3], (C): [0, 0], (D): [1, 1, 0, 1]",
+        "answer": "B"
+    },
+    {
+        "qid": "topoqa_91",
+        "question": "The material's formula is YIr, and its spacegroup number is 221. With spin-orbit coupling, which topological class does this material belong to? (A): Generic Momemtum Semi-Metals, (B): Topological Crystalline Insulators, (C): High Symmetry Line Semi-Metals, (D): High Symmetry Point Semi-Metals",
+        "answer": "B"
+    },
+    {
+        "qid": "topoqa_92",
+        "question": "The material's formula is Pr2MgNi2, which crystal system does this material belong to? (A): Hexagonal, (B): Orthorhombic, (C): Trigonal, (D): Tetragonal",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_93",
+        "question": "The material's formula is NaGe2(PO4)3, which crystal system does this material belong to? (A): Trigonal, (B): Orthorhombic, (C): Tetragonal, (D): Hexagonal",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_94",
+        "question": "The material's formula is CuH18C4N10(ClO)2, and its spacegroup number is 2. Without spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [0, 1, 0, 2], (B): [1, 1, 1, 2], (C): [1, 1, 0, 1], (D): [0, 1, 0, 0]",
+        "answer": "A"
+    },
+    {
+        "qid": "topoqa_95",
+        "question": "The material's formula is ZrIr3, what is the energy gap of this material without spin-orbit coupling? (A): 0.14, (B): 0.37, (C): 0, (D): 0.34",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_96",
+        "question": "The material's formula is Hf2Hg, and its spacegroup number is 139. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [9], (B): [1, 3], (C): [1, 4], (D): [1, 2]",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_97",
+        "question": "The material's formula is O2, and its spacegroup number is 123. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [4, 9], (B): [5, 0], (C): [0, 2, 6], (D): [0, 2, 3]",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_98",
+        "question": "The material's formula is CeGa2, and its spacegroup number is 191. With spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [5, 11], (B): [2, 0], (C): [4, 9], (D): [0, 1, 1, 0]",
+        "answer": "C"
+    },
+    {
+        "qid": "topoqa_99",
+        "question": "The material's formula is SrSe2O5, and its spacegroup number is 2. Without spin-orbit coupling, what is the symmetry-based indicator of this material? (A): [1], (B): [0, 0, 0, 0], (C): [0, 0, 0, 3], (D): [1, 1, 1, 0]",
+        "answer": "B"
+    },
+    {
+        "qid": "topoqa_100",
+        "question": "The material's formula is Hf(SiNi)2, and its spacegroup number is 139. Without spin-orbit coupling, which topological class does this material belong to? (A): Topological Crystalline Insulators, (B): Trivial Insulator, (C): Topological Insulators, (D): High Symmetry Point Semi-Metals",
+        "answer": "D"
+    },
+    {
+        "qid": "topoqa_101",
+        "question": "What space group is most commonly associated with Yb4Mg3H14?",
+        "answer": "Yb4Mg3H14 is classified under space group number 189."
+    },
+    {
+        "qid": "topoqa_102",
+        "question": "How is Li3Sc(BO3)2 classified in terms of space group number?",
+        "answer": "Li3Sc(BO3)2 is confirmed to belong to space group number 14."
+    },
+    {
+        "qid": "topoqa_103",
+        "question": "What topological category does La(PRu)2 with space group 139 fall into when considering spin-orbit coupling?",
+        "answer": "The observed SOC topological class for La(PRu)2 with space group 139 is ."
+    },
+    {
+        "qid": "topoqa_104",
+        "question": "Which NSOC topological class is observed in TeI with space group 2?",
+        "answer": "The non-SOC topological class of TeI with space group 2 is Triv_Ins."
+    },
+    {
+        "qid": "topoqa_105",
+        "question": "What space group is most commonly associated with Pr(NiAs)2?",
+        "answer": "Pr(NiAs)2 is classified under space group number 139."
+    },
+    {
+        "qid": "topoqa_106",
+        "question": "Which groups are observed to play a key role in defining the topological class of TbSi2 with space group 141 under spin-orbit coupling conditions?",
+        "answer": "The groups used to determine the topological properties of TbSi2 with space group 141 under SOC influence are N/A."
+    },
+    {
+        "qid": "topoqa_107",
+        "question": "Can you detail the groups used for the topological classification of ZrBrN with space group 166 within the context of spin-orbit coupling effects?",
+        "answer": "For ZrBrN with space group 166, the specific groups that classify its topological characteristics under SOC effects are Z2,Z2,Z2,Z4."
+    },
+    {
+        "qid": "topoqa_108",
+        "question": "What topological category does Ti3(BiO3)4 with space group 41 fall into when considering spin-orbit coupling?",
+        "answer": "The observed SOC topological class for Ti3(BiO3)4 with space group 41 is Triv_Ins."
+    },
+    {
+        "qid": "topoqa_109",
+        "question": "What space group is most commonly associated with AsBr5F6?",
+        "answer": "AsBr5F6 is classified under space group number 15."
+    },
+    {
+        "qid": "topoqa_110",
+        "question": "What topological category does CsLuCdTe3 with space group 63 fall into when considering spin-orbit coupling?",
+        "answer": "The observed SOC topological class for CsLuCdTe3 with space group 63 is Triv_Ins."
+    },
+    {
+        "qid": "topoqa_111",
+        "question": "For AlBiBr6 with space group 2, which SOC topological class has been identified?",
+        "answer": "The topological classification of AlBiBr6 with space group 2 considering SOC effects is Triv_Ins."
+    },
+    {
+        "qid": "topoqa_112",
+        "question": "What space group is most commonly associated with Dy3Mn3Ga2Si?",
+        "answer": "Dy3Mn3Ga2Si is classified under space group number 189."
+    },
+    {
+        "qid": "topoqa_113",
+        "question": "Can you detail the groups used for the topological classification of Ta4BTe8 with space group 55 within the context of spin-orbit coupling effects?",
+        "answer": "For Ta4BTe8 with space group 55, the specific groups that classify its topological characteristics under SOC effects are N/A."
+    },
+    {
+        "qid": "topoqa_114",
+        "question": "Could you tell me the DOS gap of Na2GeH12S2O7 with space group 60 with SOC?",
+        "answer": "For Na2GeH12S2O7 with space group 60, the DOS gap including SOC effects is 3.236161."
+    },
+    {
+        "qid": "topoqa_115",
+        "question": "Could you tell me the DOS gap of K2Si(S2O7)3 with space group 14 with SOC?",
+        "answer": "For K2Si(S2O7)3 with space group 14, the DOS gap including SOC effects is None."
+    },
+    {
+        "qid": "topoqa_116",
+        "question": "What is the spin-orbit coupling topological class of TaClF8 with space group 54?",
+        "answer": "TaClF8 with space group 54 falls into the Triv_Ins topological class when considering SOC."
+    },
+    {
+        "qid": "topoqa_117",
+        "question": "Which lattice configuration is observed in Na3AsH18Se4O9 with space group 198?",
+        "answer": "The lattice type of Na3AsH18Se4O9 with space group 198 is Cubic."
+    },
+    {
+        "qid": "topoqa_118",
+        "question": "What is the confirmed space group number for ErInPt?",
+        "answer": "The space group number for ErInPt is 189."
+    },
+    {
+        "qid": "topoqa_119",
+        "question": "Can you specify the crystal lattice type for ICl with space group 14?",
+        "answer": "For ICl with space group 14, the identified lattice type is Monoclinic."
+    },
+    {
+        "qid": "topoqa_120",
+        "question": "Which groups are observed to play a key role in defining the topological class of La5Ga3 with space group 130 without the influence of spin-orbit coupling?",
+        "answer": "The groups used to determine the topological properties of La5Ga3 with space group 130 without SOC influence are N/A."
+    },
+    {
+        "qid": "topoqa_121",
+        "question": "What groups are utilized to determine the topological properties of TaPbSe2 with space group 187 under the influence of spin-orbit coupling?",
+        "answer": "The topological classification groups for TaPbSe2 with space group 187 considering SOC are N/A."
+    },
+    {
+        "qid": "topoqa_122",
+        "question": "What topological category does AgClO4 with space group 216 fall into without considering spin-orbit coupling?",
+        "answer": "The observed non-SOC topological class for AgClO4 with space group 216 is Triv_Ins."
+    },
+    {
+        "qid": "topoqa_123",
+        "question": "Which SOC topological class is observed in AlPO4 with space group 119?",
+        "answer": "The SOC topological class of AlPO4 with space group 119 is Triv_Ins."
+    },
+    {
+        "qid": "topoqa_124",
+        "question": "Which groups are observed to play a key role in defining the topological class of TmInPd2 with space group 225 without the influence of spin-orbit coupling?",
+        "answer": "The groups used to determine the topological properties of TmInPd2 with space group 225 without SOC influence are N/A."
+    },
+    {
+        "qid": "topoqa_125",
+        "question": "What space group is most commonly associated with P4S(NF)6?",
+        "answer": "P4S(NF)6 is classified under space group number 14."
+    },
+    {
+        "qid": "topoqa_126",
+        "question": "What groups are utilized to determine the topological properties of KZrSnF7 with space group 53 without considering spin-orbit coupling?",
+        "answer": "The topological classification groups for KZrSnF7 with space group 53 excluding SOC are Z2."
+    },
+    {
+        "qid": "topoqa_127",
+        "question": "What groups are utilized to determine the topological properties of Nb2Te4O13 with space group 2 without considering spin-orbit coupling?",
+        "answer": "The topological classification groups for Nb2Te4O13 with space group 2 excluding SOC are Z2,Z2,Z2,Z4."
+    },
+    {
+        "qid": "topoqa_128",
+        "question": "Could you tell me the DOS gap of AlBiSeCl4 with space group 82 with SOC?",
+        "answer": "For AlBiSeCl4 with space group 82, the DOS gap including SOC effects is 1.577015."
+    },
+    {
+        "qid": "topoqa_129",
+        "question": "Can you specify the crystal lattice type for K3SnTe3 with space group 14?",
+        "answer": "For K3SnTe3 with space group 14, the identified lattice type is Monoclinic."
+    },
+    {
+        "qid": "topoqa_130",
+        "question": "Which lattice configuration is observed in InFeBr3 with space group 62?",
+        "answer": "The lattice type of InFeBr3 with space group 62 is Orthohombic."
+    },
+    {
+        "qid": "topoqa_131",
+        "question": "What is the non-spin-orbit coupling topological class of La(AsRh)2 with space group 129?",
+        "answer": "La(AsRh)2 with space group 129 falls into the HSP_SM topological class without considering SOC."
+    },
+    {
+        "qid": "topoqa_132",
+        "question": "Could you tell me the DOS gap of Na7Cu3O8 with space group 2 with SOC?",
+        "answer": "For Na7Cu3O8 with space group 2, the DOS gap including SOC effects is 1.53134."
+    },
+    {
+        "qid": "topoqa_133",
+        "question": "What topological category does SmIn with space group 221 fall into without considering spin-orbit coupling?",
+        "answer": "The observed non-SOC topological class for SmIn with space group 221 is HSP_SM."
+    },
+    {
+        "qid": "topoqa_134",
+        "question": "What space group does Zn3As2(HO)16 belong to?",
+        "answer": "For Zn3As2(HO)16, the most commonly associated space group is 12."
+    },
+    {
+        "qid": "topoqa_135",
+        "question": "Can you specify the space group for the standard structure of CuH4C2S2N2Cl?",
+        "answer": "The standard space group number for CuH4C2S2N2Cl is 61."
+    },
+    {
+        "qid": "topoqa_136",
+        "question": "What is the non-spin-orbit coupling topological class of NbSbO4 with space group 33?",
+        "answer": "NbSbO4 with space group 33 falls into the Triv_Ins topological class without considering SOC."
+    },
+    {
+        "qid": "topoqa_137",
+        "question": "Which groups are observed to play a key role in defining the topological class of H13C3NF4 with space group 2 without the influence of spin-orbit coupling?",
+        "answer": "The groups used to determine the topological properties of H13C3NF4 with space group 2 without SOC influence are Z2,Z2,Z2,Z4."
+    },
+    {
+        "qid": "topoqa_138",
+        "question": "For Al(CoSi)2 with space group 164, what is the gap in the density of states when considering SOC?",
+        "answer": "The DOS gap for Al(CoSi)2 with space group 164, when considering spin-orbit coupling, is 0.0."
+    },
+    {
+        "qid": "topoqa_139",
+        "question": "Could you inform me about the DOS gap of Na2LiAlP2 with space group 64 in the absence of SOC?",
+        "answer": "For Na2LiAlP2 with space group 64, the DOS gap without considering spin-orbit coupling is 1.890166."
+    },
+    {
+        "qid": "topoqa_140",
+        "question": "Which lattice configuration is observed in HfNiSn with space group 216?",
+        "answer": "The lattice type of HfNiSn with space group 216 is Cubic."
+    },
+    {
+        "qid": "topoqa_141",
+        "question": "What is the spin-orbit coupling topological class of PrAl3 with space group 194?",
+        "answer": "PrAl3 with space group 194 falls into the HSL_SM topological class when considering SOC."
+    },
+    {
+        "qid": "topoqa_142",
+        "question": "What is the lattice type of BaO with space group 129?",
+        "answer": "The crystal lattice type for BaO with space group 129 is Tetragonal."
+    },
+    {
+        "qid": "topoqa_143",
+        "question": "For HoH2 with space group 225, what is the observed gap in the density of states without SOC?",
+        "answer": "The DOS gap for HoH2 with space group 225, when excluding spin-orbit coupling, is 0.0."
+    },
+    {
+        "qid": "topoqa_144",
+        "question": "How is Y(BIr)4 classified in terms of space group number?",
+        "answer": "Y(BIr)4 is confirmed to belong to space group number 86."
+    },
+    {
+        "qid": "topoqa_145",
+        "question": "Which NSOC topological class is observed in Nb2V4Si5 with space group 72?",
+        "answer": "The non-SOC topological class of Nb2V4Si5 with space group 72 is HSL_SM."
+    },
+    {
+        "qid": "topoqa_146",
+        "question": "Can you detail the groups used for the topological classification of NaH6BrO5 with space group 2 within the context of spin-orbit coupling effects?",
+        "answer": "For NaH6BrO5 with space group 2, the specific groups that classify its topological characteristics under SOC effects are Z2,Z2,Z2,Z4."
+    },
+    {
+        "qid": "topoqa_147",
+        "question": "Can you specify the value of the DOS gap for CoBW with space group 62 without SOC effects?",
+        "answer": "For CoBW with space group 62, the observed DOS gap without SOC effects is 0.0."
+    },
+    {
+        "qid": "topoqa_148",
+        "question": "What is the lattice type of CsTa2P5O18 with space group 2?",
+        "answer": "The crystal lattice type for CsTa2P5O18 with space group 2 is Triclinic."
+    },
+    {
+        "qid": "topoqa_149",
+        "question": "Which lattice configuration is observed in Rb3Nb5P2O19 with space group 167?",
+        "answer": "The lattice type of Rb3Nb5P2O19 with space group 167 is Trigonal."
+    },
+    {
+        "qid": "topoqa_150",
+        "question": "Can you specify the SOC topological classification for Nd2C(NO)2 with space group 164?",
+        "answer": "For Nd2C(NO)2 with space group 164, the identified SOC topological class is Triv_Ins."
+    },
+    {
+        "qid": "topoqa_151",
+        "question": "Can you specify the NSOC topological classification for CrSi2 with space group 181?",
+        "answer": "For CrSi2 with space group 181, the identified non-SOC topological class is Triv_Ins."
+    },
+    {
+        "qid": "topoqa_152",
+        "question": "What is the non-spin-orbit coupling topological class of Cu3P with space group 185?",
+        "answer": "Cu3P with space group 185 falls into the HSP_SM topological class without considering SOC."
+    },
+    {
+        "qid": "topoqa_153",
+        "question": "Can you detail the groups used for the topological classification of LiCd2HSe2O7 with space group 14 within the context of spin-orbit coupling effects?",
+        "answer": "For LiCd2HSe2O7 with space group 14, the specific groups that classify its topological characteristics under SOC effects are Z2,Z2,Z2,Z4."
+    },
+    {
+        "qid": "topoqa_154",
+        "question": "Can you provide the value of the DOS gap for NaH4IO2 with space group 2 with SOC effects considered?",
+        "answer": "For NaH4IO2 with space group 2, the observed DOS gap with SOC effects is 0.0."
+    },
+    {
+        "qid": "topoqa_155",
+        "question": "Can you detail the groups used for the topological classification of Y3Al5O12 with space group 230 within the context of spin-orbit coupling effects?",
+        "answer": "For Y3Al5O12 with space group 230, the specific groups that classify its topological characteristics under SOC effects are Z4."
+    },
+    {
+        "qid": "topoqa_156",
+        "question": "Which groups are observed to play a key role in defining the topological class of SClO2F with space group 29 without the influence of spin-orbit coupling?",
+        "answer": "The groups used to determine the topological properties of SClO2F with space group 29 without SOC influence are N/A."
+    },
+    {
+        "qid": "topoqa_157",
+        "question": "For PrAu2 with space group 74, which specific groups have been identified to classify its topological characteristics in the absence of spin-orbit coupling?",
+        "answer": "Without the influence of SOC, PrAu2 with space group 74 falls into the N/A classification groups."
+    },
+    {
+        "qid": "topoqa_158",
+        "question": "For NaH2Pd3 with space group 65, which lattice type has been identified?",
+        "answer": "For NaH2Pd3 with space group 65, the observed crystal structure is Orthohombic."
+    },
+    {
+        "qid": "topoqa_159",
+        "question": "I'm interested in the DOS gap of ThSb with space group 225 with spin-orbit coupling. What is it?",
+        "answer": "The SOC DOS gap value for ThSb with space group 225 is 0.0."
+    },
+    {
+        "qid": "topoqa_160",
+        "question": "In the absence of spin-orbit coupling, into which group classifications does Pr(SiNi)2 with space group 139 typically fall?",
+        "answer": "The key groups defining the topological class of Pr(SiNi)2 with space group 139 without SOC effects are N/A."
+    },
+    {
+        "qid": "topoqa_161",
+        "question": "What groups are utilized to determine the topological properties of K2NaAg3(CN)6 with space group 162 without considering spin-orbit coupling?",
+        "answer": "The topological classification groups for K2NaAg3(CN)6 with space group 162 excluding SOC are Z2."
+    },
+    {
+        "qid": "topoqa_162",
+        "question": "For KAlTe2 with space group 140, which specific groups have been identified to classify its topological characteristics in the presence of spin-orbit coupling?",
+        "answer": "In the framework of SOC, KAlTe2 with space group 140 falls into the Z2,Z8 classification groups."
+    },
+    {
+        "qid": "topoqa_163",
+        "question": "Can you specify the NSOC topological classification for K2Sn(AuS2)2 with space group 2?",
+        "answer": "For K2Sn(AuS2)2 with space group 2, the identified non-SOC topological class is Triv_Ins."
+    },
+    {
+        "qid": "topoqa_164",
+        "question": "What space group does Sr5(InBi3)2 belong to?",
+        "answer": "For Sr5(InBi3)2, the most commonly associated space group is 55."
+    },
+    {
+        "qid": "topoqa_165",
+        "question": "Which SOC topological class is observed in LaNiGe2 with space group 63?",
+        "answer": "The SOC topological class of LaNiGe2 with space group 63 is HSP_SM."
+    },
+    {
+        "qid": "topoqa_166",
+        "question": "What groups are utilized to determine the topological properties of ZnS with space group 160 under the influence of spin-orbit coupling?",
+        "answer": "The topological classification groups for ZnS with space group 160 considering SOC are N/A."
+    },
+    {
+        "qid": "topoqa_167",
+        "question": "What groups are utilized to determine the topological properties of TlP2H5O8 with space group 15 under the influence of spin-orbit coupling?",
+        "answer": "The topological classification groups for TlP2H5O8 with space group 15 considering SOC are Z2,Z2,Z2,Z4."
+    },
+    {
+        "qid": "topoqa_168",
+        "question": "Can you specify the NSOC topological classification for SrMgH4 with space group 36?",
+        "answer": "For SrMgH4 with space group 36, the identified non-SOC topological class is Triv_Ins."
+    },
+    {
+        "qid": "topoqa_169",
+        "question": "What groups are utilized to determine the topological properties of SiH3F with space group 14 without considering spin-orbit coupling?",
+        "answer": "The topological classification groups for SiH3F with space group 14 excluding SOC are Z2."
+    },
+    {
+        "qid": "topoqa_170",
+        "question": "What space group is most commonly associated with ZnH4SeO6?",
+        "answer": "ZnH4SeO6 is classified under space group number 61."
+    },
+    {
+        "qid": "topoqa_171",
+        "question": "For ErCuPbSe3 with space group 62, which specific groups have been identified to classify its topological characteristics in the absence of spin-orbit coupling?",
+        "answer": "Without the influence of SOC, ErCuPbSe3 with space group 62 falls into the N/A classification groups."
+    },
+    {
+        "qid": "topoqa_172",
+        "question": "What space group does HfGaPd belong to?",
+        "answer": "For HfGaPd, the most commonly associated space group is 190."
+    },
+    {
+        "qid": "topoqa_173",
+        "question": "What is the lattice type of CrHgO4 with space group 63?",
+        "answer": "The crystal lattice type for CrHgO4 with space group 63 is Orthohombic."
+    },
+    {
+        "qid": "topoqa_174",
+        "question": "What is the lattice type of GeS with space group 62?",
+        "answer": "The crystal lattice type for GeS with space group 62 is Orthohombic."
+    },
+    {
+        "qid": "topoqa_175",
+        "question": "Could you inform me about the DOS gap of Rh3S4 with space group 12 in the absence of SOC?",
+        "answer": "For Rh3S4 with space group 12, the DOS gap without considering spin-orbit coupling is 0.0."
+    },
+    {
+        "qid": "topoqa_176",
+        "question": "What is the confirmed space group number for PbWO4?",
+        "answer": "The space group number for PbWO4 is 14."
+    },
+    {
+        "qid": "topoqa_177",
+        "question": "For RbSbF6 with space group 148, which SOC topological class has been identified?",
+        "answer": "The topological classification of RbSbF6 with space group 148 considering SOC effects is Triv_Ins."
+    },
+    {
+        "qid": "topoqa_178",
+        "question": "Can you specify the space group for the standard structure of K4Bi2O5?",
+        "answer": "The standard space group number for K4Bi2O5 is 2."
+    },
+    {
+        "qid": "topoqa_179",
+        "question": "What is the non-spin-orbit coupling topological class of Ce(FeP3)4 with space group 204?",
+        "answer": "Ce(FeP3)4 with space group 204 falls into the Triv_Ins topological class without considering SOC."
+    },
+    {
+        "qid": "topoqa_180",
+        "question": "Which groups are observed to play a key role in defining the topological class of NpIr2 with space group 227 without the influence of spin-orbit coupling?",
+        "answer": "The groups used to determine the topological properties of NpIr2 with space group 227 without SOC influence are N/A."
+    },
+    {
+        "qid": "topoqa_181",
+        "question": "What groups are utilized to determine the topological properties of K4CdP2 with space group 166 without considering spin-orbit coupling?",
+        "answer": "The topological classification groups for K4CdP2 with space group 166 excluding SOC are Z2."
+    },
+    {
+        "qid": "topoqa_182",
+        "question": "In the framework of spin-orbit coupling, into which group classifications does W with space group 229 typically fall?",
+        "answer": "The key groups defining the topological class of W with space group 229 under SOC effects are Z2,Z8."
+    },
+    {
+        "qid": "topoqa_183",
+        "question": "For PaSb2 with space group 129, what is the observed gap in the density of states without SOC?",
+        "answer": "The DOS gap for PaSb2 with space group 129, when excluding spin-orbit coupling, is 0.0."
+    },
+    {
+        "qid": "topoqa_184",
+        "question": "What groups are utilized to determine the topological properties of Sb2O3 with space group 56 under the influence of spin-orbit coupling?",
+        "answer": "The topological classification groups for Sb2O3 with space group 56 considering SOC are Z4."
+    },
+    {
+        "qid": "topoqa_185",
+        "question": "What is the DOS gap for Na2VPO6 with space group 14 when excluding spin-orbit coupling?",
+        "answer": "The value of the DOS gap for Na2VPO6 with space group 14 in the absence of SOC is 3.118005."
+    },
+    {
+        "qid": "topoqa_186",
+        "question": "Can you specify the space group for the standard structure of SbAsO3?",
+        "answer": "The standard space group number for SbAsO3 is 14."
+    },
+    {
+        "qid": "topoqa_187",
+        "question": "In the absence of spin-orbit coupling, into which group classifications does Er3Al3NiGe2 with space group 189 typically fall?",
+        "answer": "The key groups defining the topological class of Er3Al3NiGe2 with space group 189 without SOC effects are N/A."
+    },
+    {
+        "qid": "topoqa_188",
+        "question": "For Rb2MgF4 with space group 139, which lattice type has been identified?",
+        "answer": "For Rb2MgF4 with space group 139, the observed crystal structure is Tetragonal."
+    },
+    {
+        "qid": "topoqa_189",
+        "question": "Which SOC topological class is observed in Ba(LuS2)2 with space group 62?",
+        "answer": "The SOC topological class of Ba(LuS2)2 with space group 62 is Triv_Ins."
+    },
+    {
+        "qid": "topoqa_190",
+        "question": "How is Sm2MgGe2 classified in terms of space group number?",
+        "answer": "Sm2MgGe2 is confirmed to belong to space group number 127."
+    },
+    {
+        "qid": "topoqa_191",
+        "question": "What is the confirmed space group number for LiInSn?",
+        "answer": "The space group number for LiInSn is 216."
+    },
+    {
+        "qid": "topoqa_192",
+        "question": "For Pb9(Br5O2)2 with space group 85, which specific groups have been identified to classify its topological characteristics in the absence of spin-orbit coupling?",
+        "answer": "Without the influence of SOC, Pb9(Br5O2)2 with space group 85 falls into the Z2 classification groups."
+    },
+    {
+        "qid": "topoqa_193",
+        "question": "For Bi2(SeO3)3 with space group 14, which specific groups have been identified to classify its topological characteristics in the absence of spin-orbit coupling?",
+        "answer": "Without the influence of SOC, Bi2(SeO3)3 with space group 14 falls into the Z2 classification groups."
+    },
+    {
+        "qid": "topoqa_194",
+        "question": "What is the DOS gap for Al with space group 229 when excluding spin-orbit coupling?",
+        "answer": "The value of the DOS gap for Al with space group 229 in the absence of SOC is 0.0."
+    },
+    {
+        "qid": "topoqa_195",
+        "question": "What space group does Sm5Si3O13 belong to?",
+        "answer": "For Sm5Si3O13, the most commonly associated space group is 176."
+    },
+    {
+        "qid": "topoqa_196",
+        "question": "In the absence of spin-orbit coupling, into which group classifications does CaIr2 with space group 227 typically fall?",
+        "answer": "The key groups defining the topological class of CaIr2 with space group 227 without SOC effects are N/A."
+    },
+    {
+        "qid": "topoqa_197",
+        "question": "What space group does Ho3Pd2 belong to?",
+        "answer": "For Ho3Pd2, the most commonly associated space group is 127."
+    },
+    {
+        "qid": "topoqa_198",
+        "question": "Which lattice configuration is observed in H7CSeN3O4 with space group 14?",
+        "answer": "The lattice type of H7CSeN3O4 with space group 14 is Monoclinic."
+    },
+    {
+        "qid": "topoqa_199",
+        "question": "What is the lattice type of K2PHO4 with space group 33?",
+        "answer": "The crystal lattice type for K2PHO4 with space group 33 is Orthohombic."
+    },
+    {
+        "qid": "topoqa_200",
+        "question": "What is the spin-orbit coupling topological class of Re24Mo5 with space group 217?",
+        "answer": "Re24Mo5 with space group 217 falls into the HSP_SM topological class when considering SOC."
+    }
+]

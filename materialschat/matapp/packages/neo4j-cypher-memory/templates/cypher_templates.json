@@ -1,0 +1,284 @@
+{
+  "queries": [
+    {
+      "id": 1,
+      "description": "查询特定材料的相似材料",
+      "cypher": "MATCH (f1:Formula {name: 'Bi2Se3'})-[r:SIMILAR_TO]->(f2:Formula) RETURN f2.name AS similar_material, f2.mp_id AS mp_id, r.similarity AS similarity"
+    },
+    {
+      "id": 2,
+      "description": "查询材料的基本物理性质，包括DOS能隙和间接能隙",
+      "cypher": "MATCH (f:Formula {name: 'Bi2Se3'}) MATCH (f)-[:HAS_GAP]->(g1:Gap) WHERE g1.cate = 'soc_dos_gap' MATCH (f)-[:HAS_GAP]->(g2:Gap) WHERE g2.cate = 'soc_indirect_gap' MATCH (f)-[:IS_METAL]->(m:IsMetal) MATCH (f)-[:HAS_DENSITY]->(d:Density) RETURN f.mp_id AS mp_id, f.name AS formula, g1.name AS dos_gap, g2.name AS indirect_gap, m.name AS is_metal, d.name AS density"
+    },
+    {
+      "id": 3,
+      "description": "查询材料的元素组成和空间群信息",
+      "cypher": "MATCH (f:Formula {name: 'Bi2Se3'})-[:CONTAINS]->(e:Element) MATCH (f)-[:BELONGS_TO]->(s:SpaceGroup) RETURN f.mp_id AS mp_id, f.name AS formula, COLLECT(e.name) AS elements, s.number AS space_group_number, s.name AS space_group_name"
+    },
+    {
+      "id": 4,
+      "description": "查询材料的磁性和电子性质",
+      "cypher": "MATCH (f:Formula {name: 'Bi2Se3'}) MATCH (f)-[:HAS_MAGNETIC_PROPERTY]->(m:MagneticOrdering) MATCH (f)-[:HAS_MAGNETIC_PROPERTY]->(tm:TotalMagnetization) RETURN f.mp_id AS mp_id, f.name AS formula, m.name AS magnetic_ordering, tm.name AS total_magnetization"
+    },
+    {
+      "id": 5,
+      "description": "查询具有特定拓扑类型的材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_TOPO_CLASS]->(t:TopoClass) WHERE t.name = 'topological insulator' RETURN f.name AS formula, f.mp_id AS mp_id LIMIT 10"
+    },
+    {
+      "id": 6,
+      "description": "查询材料的介电和光学性质",
+      "cypher": "MATCH (f:Formula {name: 'Bi2Se3'}) MATCH (f)-[:HAS_DIELECTRIC_PROPERTY]->(td:TotalDielectricConstant) MATCH (f)-[:HAS_DIELECTRIC_PROPERTY]->(ri:RefractiveIndex) RETURN f.mp_id AS mp_id, f.name AS formula, td.name AS dielectric_constant, ri.name AS refractive_index"
+    },
+    {
+      "id": 7,
+      "description": "查询材料的稳定性和能量信息",
+      "cypher": "MATCH (f:Formula {name: 'Bi2Se3'}) MATCH (f)-[:HAS_THERMO_PROPERTY]->(s:IsStable) MATCH (f)-[:HAS_THERMO_PROPERTY]->(e:EnergyAboveHull) RETURN f.mp_id AS mp_id, f.name AS formula, s.name AS is_stable, e.name AS energy_above_hull"
+    },
+    {
+      "id": 8,
+      "description": "查询材料的声子拓扑性质",
+      "cypher": "MATCH (f:Formula {name: 'Bi2Se3'}) MATCH (f)-[:HAS_PHONON_PROPERTY]->(w:WeylPointsCount) MATCH (f)-[:HAS_PHONON_PROPERTY]->(t:TopologicalLineCount) RETURN f.mp_id AS mp_id, f.name AS formula, w.name AS weyl_points, t.name AS topological_lines"
+    },
+    {
+      "id": 9,
+      "description": "按空间群统计材料数量",
+      "cypher": "MATCH (f:Formula)-[:BELONGS_TO]->(s:SpaceGroup) RETURN s.number AS space_group_number, s.name AS space_group_name, COUNT(f) AS material_count ORDER BY material_count DESC LIMIT 10"
+    },
+    {
+      "id": 10,
+      "description": "查询SOC效应对拓扑性质的影响",
+      "cypher": "MATCH (f:Formula {name: 'Bi2Se3'}) MATCH (f)-[:HAS_SOC_INDICATOR]->(s:SOC_INDICATOR)-[:SOC_INDICATES]->(t:TopoClass) RETURN f.mp_id AS mp_id, f.name AS formula, s.name AS soc_indicator, t.name AS topo_class"
+    },
+    {
+      "id": 11,
+      "description": "查询特定元素组成的材料",
+      "cypher": "MATCH (f:Formula)-[:CONTAINS]->(e:Element) WHERE e.name IN ['Bi', 'Te', 'Se'] WITH f, COLLECT(e.name) AS elements WHERE SIZE(elements) >= 2 RETURN f.mp_id AS mp_id, f.name AS formula, elements LIMIT 10"
+    },
+    {
+      "id": 12,
+      "description": "查询材料的弹性性质",
+      "cypher": "MATCH (f:Formula {name: 'Bi2Se3'}) MATCH (f)-[:HAS_ELASTICITY_PROPERTY]->(b:BulkModulus) MATCH (f)-[:HAS_ELASTICITY_PROPERTY]->(s:ShearModulus) RETURN f.mp_id AS mp_id, f.name AS formula, b.name AS bulk_modulus, s.name AS shear_modulus"
+    },
+    {
+      "id": 13,
+      "description": "查询具有特定晶格类型的材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_LATTICE_TYPE]->(l:LatticeType) WHERE l.name = 'Cubic' RETURN f.mp_id AS mp_id, f.name AS formula, f.mp_id AS mp_id LIMIT 10"
+    },
+    {
+      "id": 14,
+      "description": "查询合成方法和稳定性",
+      "cypher": "MATCH (f:Formula {name: 'Bi2Se3'}) MATCH (f)-[:HAS_SYNTHESIS_TYPE]->(sy:SynthesisType) MATCH (f)-[:HAS_THERMO_PROPERTY]->(st:IsStable) RETURN f.mp_id AS mp_id, f.name AS formula, sy.name AS synthesis_method, st.name AS is_stable"
+    },
+    {
+      "id": 15,
+      "description": "查询宽带隙非金属材料（DOS能隙大于2.0eV）",
+      "cypher": "MATCH (f:Formula)-[:IS_METAL]->(m:IsMetal) MATCH (f)-[:HAS_GAP]->(g:Gap) WHERE m.name = 'non-metal' AND g.cate = 'soc_dos_gap' AND toFloat(replace(g.name, 'eV', '')) > 2.0 RETURN f.mp_id AS mp_id, f.name AS formula, g.name AS dos_gap ORDER BY toFloat(replace(g.name, 'eV', '')) DESC LIMIT 10"
+    },
+    {
+      "id": 16,
+      "description": "查询具有特定点群的材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_POINT_GROUP]->(p:PointGroup) WHERE p.name = 'C2h' RETURN f.mp_id AS mp_id, f.name AS formula, f.mp_id AS mp_id, p.name AS point_group LIMIT 10"
+    },
+    {
+      "id": 17,
+      "description": "查询材料的晶胞参数",
+      "cypher": "MATCH (f:Formula {name: 'Bi2Se3'})-[:HAS_CELL_PARAMS]->(c:CellParams) RETURN f.mp_id AS mp_id, f.name AS formula, c.name AS cell_parameters"
+    },
+    {
+      "id": 18,
+      "description": "按化学系统分类统计材料数量",
+      "cypher": "MATCH (f:Formula)-[:BELONGS_TO]->(c:Chemsys) RETURN c.name AS chemical_system, COUNT(f) AS material_count ORDER BY material_count DESC LIMIT 15"
+    },
+    {
+      "id": 19,
+      "description": "查询具有特定磁性位点数的材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_MAGNETIC_PROPERTY]->(m:MagneticSitesCount) WHERE toInteger(m.name) > 2 RETURN f.mp_id AS mp_id, f.name AS formula, m.name AS magnetic_sites_count LIMIT 10"
+    },
+    {
+      "id": 20,
+      "description": "查询体积在特定范围内的材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_VOLUME]->(v:Volume) WITH f, v, toFloat(replace(v.name, 'Å³', '')) AS volume_value WHERE volume_value >= 100 AND volume_value <= 200 RETURN f.mp_id AS mp_id, f.name AS formula, v.name AS volume ORDER BY volume_value LIMIT 10"
+    },
+    {
+      "id": 21,
+      "description": "查询具有特定多重简并外尔点的材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_PHONON_PROPERTY]->(m:MultiDegWeylPointsCount) WHERE toInteger(m.name) > 0 RETURN f.mp_id AS mp_id, f.name AS formula, m.name AS multi_deg_weyl_points LIMIT 10"
+    },
+    {
+      "id": 22,
+      "description": "查询特定原型结构的材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_PHONON_PROPERTY]->(p:Prototype) WHERE p.name = 'AB2X4' RETURN f.mp_id AS mp_id, f.name AS formula, p.name AS prototype LIMIT 10"
+    },
+    {
+      "id": 23,
+      "description": "查询具有特定交换对称性的材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_MAGNETIC_PROPERTY]->(e:ExchangeSymmetry) WHERE toInteger(e.name) > 1 RETURN f.mp_id AS mp_id, f.name AS formula, e.name AS exchange_symmetry LIMIT 10"
+    },
+    {
+      "id": 24,
+      "description": "综合查询：稳定、非金属且具有高介电常数的材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_THERMO_PROPERTY]->(s:IsStable) MATCH (f)-[:IS_METAL]->(m:IsMetal) MATCH (f)-[:HAS_DIELECTRIC_PROPERTY]->(d:TotalDielectricConstant) WHERE s.name = 'stable' AND m.name = 'non-metal' AND d.name > 20 RETURN f.mp_id AS mp_id, f.name AS formula, d.name AS dielectric_constant ORDER BY d.name DESC LIMIT 10"
+    },
+    {
+      "id": 25,
+      "description": "查询同时具有拓扑性质和磁性的材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_TOPO_CLASS]->(t:TopoClass) MATCH (f)-[:HAS_MAGNETIC_PROPERTY]->(m:MagneticOrdering) WHERE t.name <> 'trivial insulator' AND m.name IN ['magnetic', 'non-magnetic'] RETURN f.mp_id AS mp_id, f.name AS formula, t.name AS topo_class, m.name AS magnetic_ordering LIMIT 10"
+    },
+    {
+      "id": 26,
+      "description": "按电子数统计材料分布",
+      "cypher": "MATCH (f:Formula)-[:HAS_N_ELEC]->(n:Nelec) RETURN n.name AS electron_count, COUNT(f) AS material_count ORDER BY toInteger(n.name) LIMIT 20"
+    },
+    {
+      "id": 27,
+      "description": "查询具有特定原子位点数的材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_N_SITES]->(n:Nsites) WHERE toInteger(n.name) = 5 RETURN f.mp_id AS mp_id, f.name AS formula, n.name AS site_count LIMIT 10"
+    },
+    {
+      "id": 28,
+      "description": "综合查询：特定化学系统中的拓扑材料",
+      "cypher": "MATCH (f:Formula)-[:BELONGS_TO]->(c:Chemsys) MATCH (f)-[:HAS_TOPO_CLASS]->(t:TopoClass) WHERE c.name CONTAINS 'Bi' AND t.name <> 'trivial insulator' RETURN f.mp_id AS mp_id, f.name AS formula, c.name AS chemsys, t.name AS topo_class"
+    },
+    {
+      "id": 29,
+      "description": "查询具有高离子介电常数的材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_DIELECTRIC_PROPERTY]->(i:IonicDielectricConstant) WHERE i.name > 10 RETURN f.mp_id AS mp_id, f.name AS formula, i.name AS ionic_dielectric_constant ORDER BY i.name DESC LIMIT 10"
+    },
+    {
+      "id": 30,
+      "description": "查询拓扑环点数量特定的材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_PHONON_PROPERTY]->(t:TopologicalRingPointsCount) WHERE toInteger(t.name) > 0 RETURN f.mp_id AS mp_id, f.name AS formula, t.name AS ring_points_count ORDER BY toInteger(t.name) DESC LIMIT 10"
+    },
+    {
+      "id": 31,
+      "description": "复杂路径查询：从化学成分到拓扑性质的完整路径",
+      "cypher": "MATCH path = (e:Element)<-[:CONTAINS]-(f:Formula)-[:HAS_TOPO_CLASS]->(t:TopoClass) WHERE e.name = 'Bi' AND t.name <> 'trivial insulator' RETURN f.mp_id AS mp_id, f.name AS formula, e.name AS element, t.name AS topo_class"
+    },
+    {
+      "id": 32,
+      "description": "查询同时满足多个热力学条件的材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_THERMO_PROPERTY]->(s:IsStable) MATCH (f)-[:HAS_THERMO_PROPERTY]->(e:EnergyAboveHull) MATCH (f)-[:HAS_THERMO_PROPERTY]->(t:ThermoType) WHERE s.name = 'not stable' AND toFloat(replace(e.name, 'eV/atom', '')) < 0.1 RETURN f.mp_id AS mp_id, f.name AS formula, e.name AS energy_above_hull, t.name AS thermo_type"
+    },
+    {
+      "id": 33,
+      "description": "查询特定空间群中的金属材料",
+      "cypher": "MATCH (f:Formula)-[:BELONGS_TO]->(s:SpaceGroup) MATCH (f)-[:IS_METAL]->(m:IsMetal) WHERE s.number = 225 AND m.name = 'stable' RETURN f.mp_id AS mp_id, f.name AS formula, s.name AS space_group"
+    },
+    {
+      "id": 34,
+      "description": "查询具有特定SOC和NSOC指标组合的材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_SOC_INDICATOR]->(soc:SOC_INDICATOR) MATCH (f)-[:HAS_NSOC_INDICATOR]->(nsoc:NSOC_INDICATOR) RETURN f.mp_id AS mp_id, f.name AS formula, soc.name AS soc_indicator, nsoc.name AS nsoc_indicator LIMIT 10"
+    },
+    {
+      "id": 35,
+      "description": "查询具有高折射率的绝缘体材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_DIELECTRIC_PROPERTY]->(r:RefractiveIndex) MATCH (f)-[:IS_METAL]->(m:IsMetal) WHERE r.name > 2.5 AND m.name = 'non-metal' RETURN f.mp_id AS mp_id, f.name AS formula, r.name AS refractive_index ORDER BY r.name DESC LIMIT 10"
+    },
+    {
+      "id": 36,
+      "description": "查找具有窄带隙（小于0.5eV）的半导体材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_GAP]->(g:Gap), (f)-[:IS_METAL]->(m:IsMetal) WHERE g.cate = 'soc_dos_gap' AND toFloat(replace(g.name, 'eV', '')) < 0.5 AND toFloat(replace(g.name, 'eV', '')) > 0 AND m.name = 'non-metal' RETURN f.mp_id AS mp_id, f.name AS formula, g.name AS dos_gap ORDER BY g.name DESC LIMIT 10"
+    },
+    {
+      "id": 37,
+      "description": "比较材料在考虑自旋轨道耦合前后的DOS能隙变化",
+      "cypher": "MATCH (f:Formula {name: 'Bi2Se3'})-[:HAS_GAP]->(g:Gap) WHERE g.cate IN ['soc_dos_gap', 'nsoc_dos_gap'] RETURN f.mp_id AS mp_id, f.name AS formula, CASE g.cate WHEN 'soc_dos_gap' THEN 'With SOC' WHEN 'nsoc_dos_gap' THEN 'Without SOC' END AS calculation_type, g.name AS dos_gap"
+    },
+    {
+      "id": 38,
+      "description": "查找宽带隙（大于3eV）半导体材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_GAP]->(g:Gap), (f)-[:IS_METAL]->(m:IsMetal) WHERE g.cate = 'soc_dos_gap' AND toFloat(replace(g.name, 'eV', '')) > 3 AND m.name = 'non-metal' RETURN f.mp_id AS mp_id, f.name AS formula, g.name AS dos_gap ORDER BY g.name LIMIT 10"
+    },
+    {
+      "id": 39,
+      "description": "查找自旋轨道耦合对能隙影响显著的材料（SOC与NSOC能隙差值大于1eV）",
+      "cypher": "MATCH (f:Formula)-[:HAS_GAP]->(g1:Gap), (f)-[:HAS_GAP]->(g2:Gap) WHERE g1.cate = 'soc_dos_gap' AND g2.cate = 'nsoc_dos_gap' WITH f, g1, g2, ABS(toFloat(replace(g1.name, 'eV', '')) - toFloat(replace(g2.name, 'eV', ''))) AS soc_effect WHERE soc_effect > 1 RETURN f.mp_id AS mp_id, f.name AS formula, g1.name AS soc_dos_gap, g2.name AS nsoc_dos_gap, soc_effect AS soc_gap_difference ORDER BY soc_effect DESC LIMIT 10"
+    },
+    {
+      "id": 40,
+      "description": "查找具有强自旋轨道耦合效应的材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_GAP]->(g1:Gap), (f)-[:HAS_GAP]->(g2:Gap) WHERE g1.cate = 'soc_dos_gap' AND g2.cate = 'nsoc_dos_gap' WITH f, g1, g2, ABS(toFloat(replace(g1.name, 'eV', '')) - toFloat(replace(g2.name, 'eV', ''))) AS soc_effect WHERE soc_effect > 0.5 RETURN f.mp_id AS mp_id, f.name AS formula, g1.name AS soc_dos_gap, g2.name AS nsoc_dos_gap, soc_effect ORDER BY soc_effect DESC LIMIT 10"
+    },
+    {
+      "id": 41,
+      "description": "查询材料的能带结构",
+      "cypher": "MATCH (f:Formula{name:'Bi2Se3'})-[:HAS_GAP]->(g1:Gap), (f)-[:HAS_GAP]->(g2:Gap), (f)-[:HAS_GAP]->(g3:Gap), (f)-[:HAS_GAP]->(g4:Gap) WHERE g1.cate = 'soc_dos_gap' AND g2.cate = 'nsoc_dos_gap' AND g3.cate = 'soc_indirect_gap' AND g4.cate = 'nsoc_indirect_gap' WITH f, g1, g2, g3, g4, g1.name AS soc_dos_gap, g2.name AS nsoc_dos_gap, g3.name AS soc_indirect_gap, g4.name AS nsoc_indirect_gap RETURN f.mp_id AS mp_id, f.name AS formula, soc_dos_gap, nsoc_dos_gap, soc_indirect_gap, nsoc_indirect_gap LIMIT 10"
+    },
+    {
+      "id": 42,
+      "description": "查找具有八配位的金属中心的材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_DESCRIPTION]->(d:Description) WHERE d.name CONTAINS '8-coordinate' RETURN f.mp_id AS mp_id, f.name AS formula LIMIT 10"
+    },
+    {
+      "id": 43,
+      "description": "查找含有八面体配位构型的材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_DESCRIPTION]->(d:Description) WHERE d.name CONTAINS 'octahedral' RETURN f.mp_id AS mp_id, f.name AS formula LIMIT 10"
+    },
+    {
+      "id": 44,
+      "description": "查找一维链状结构的材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_DESCRIPTION]->(d:Description) WHERE d.name CONTAINS 'one-dimensional' RETURN f.mp_id AS mp_id, f.name AS formula LIMIT 10"
+    },
+    {
+      "id": 45,
+      "description": "查找金属-氧键长在2.4-2.5埃范围内的材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_DESCRIPTION]->(d:Description) WHERE d.name CONTAINS 'bond length' AND d.name CONTAINS '2.4' RETURN f.mp_id AS mp_id, f.name AS formula LIMIT 10"
+    },
+    {
+      "id": 46,
+      "description": "查找含有水分子配位的材料",
+      "cypher": "MATCH (f:Formula)-[:HAS_DESCRIPTION]->(d:Description) WHERE d.name CONTAINS 'water-like geometry' RETURN f.mp_id AS mp_id, f.name AS formula LIMIT 10"
+    },
+    {
+      "id": 47,
+      "description": "查询特定化学式材料的所有结构描述",
+      "cypher": "MATCH (f:Formula {name: 'Bi2Se3'})-[:HAS_DESCRIPTION]->(d:Description) RETURN f.mp_id AS mp_id, f.name AS formula, d.name AS description"
+    },
+    {
+      "id": 48,
+      "description": "查询特定化学式材料的配位环境",
+      "cypher": "MATCH (f:Formula {name: 'Bi2Se3'})-[:HAS_DESCRIPTION]->(d:Description) RETURN f.mp_id AS mp_id, f.name AS formula, d.name AS description"
+    },
+    {
+      "id": 49,
+      "description": "查询特定化学式材料的键长信息",
+      "cypher": "MATCH (f:Formula {name: 'Bi2Se3'})-[:HAS_DESCRIPTION]->(d:Description) RETURN f.mp_id AS mp_id, f.name AS formula, d.name AS description"
+    },
+    {
+      "id": 50,
+      "description": "查询特定化学式材料的几何构型信息",
+      "cypher": "MATCH (f:Formula {name: 'Bi2Se3'})-[:HAS_DESCRIPTION]->(d:Description) RETURN f.mp_id AS mp_id, f.name AS formula, d.name AS description"
+    },
+    {
+      "id": 51,
+      "description": "查询特定化学式材料（空间群号 2）在自旋轨道耦合条件下的能隙",
+      "cypher": "MATCH (f:Formula {name: 'Bi2Se3'})-[:BELONGS_TO]->(sg:SpaceGroup {number: 2}), (f)-[:HAS_GAP]->(g:Gap{cate:'soc_dos_gap'}) RETURN f.mp_id AS mp_id, f.name AS formula, g.name AS gap"
+    },
+    {
+      "id": 52,
+      "description": "查询特定化学式材料（空间群号 2）在非自旋轨道耦合条件下的能隙",
+      "cypher": "MATCH (f:Formula {name: 'Bi2Se3'})-[:BELONGS_TO]->(sg:SpaceGroup {number: 2}), (f)-[:HAS_GAP]->(g:Gap{cate:'nsoc_dos_gap'}) RETURN f.mp_id AS mp_id, f.name AS formula, g.name AS gap"
+    },
+    {
+      "id": 53,
+      "description": "查询特定化学式材料（空间群号 2）在自旋轨道条件下的对称性指标",
+      "cypher": "MATCH (f:Formula {name: 'Bi2Se3'})-[:BELONGS_TO]->(sg:SpaceGroup {number: 2}), (f)-[:HAS_SOC_INDICATOR]->(s:SOC_INDICATOR) RETURN f.mp_id AS mp_id, f.name AS formula, s.name AS indicator_group, s.value AS symmetry_indicator"
+    },
+    {
+      "id": 54,
+      "description": "查询特定化学式材料（空间群号 2）在非自旋轨道条件下的对称性指标",
+      "cypher": "MATCH (f:Formula {name: 'Bi2Se3'})-[:BELONGS_TO]->(sg:SpaceGroup {number: 2}), (f)-[:HAS_NSOC_INDICATOR]->(s:NSOC_INDICATOR) RETURN f.mp_id AS mp_id, f.name AS formula, s.name AS indicator_group, s.value AS symmetry_indicator"
+    },
+    {
+      "id": 55,
+      "description": "查询特定化学式材料（空间群号 2）在自旋轨道条件下的拓扑分类",
+      "cypher": "MATCH (f:Formula {name: 'Bi2Se3'})-[:BELONGS_TO]->(sg:SpaceGroup {number: 2}), (f)-[:HAS_TOPO_CLASS]->(t:TopoClass{cate: 'soc_top_class'}) RETURN f.mp_id AS mp_id, f.name AS formula, t.name AS topo_class"
+    },
+    {
+      "id": 56,
+      "description": "查询特定化学式材料（空间群号 2）在非自旋轨道条件下的拓扑分类",
+      "cypher": "MATCH (f:Formula {name: 'Bi2Se3'})-[:BELONGS_TO]->(sg:SpaceGroup {number: 2}), (f)-[:HAS_TOPO_CLASS]->(t:TopoClass{cate: 'nsoc_top_class'}) RETURN f.mp_id AS mp_id, f.name AS formula, t.name AS topo_class"
+    }
+  ]
+}

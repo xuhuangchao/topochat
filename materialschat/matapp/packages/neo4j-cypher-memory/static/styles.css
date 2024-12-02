@@ -1,0 +1,175 @@
+/* Base theme colors and variables */
+:root {
+  --primary-color: #1f6feb;
+  --secondary-color: #238636;
+  --background-color: #f6f8fa;
+  --text-color: #24292f;
+  --sidebar-width: 300px;
+  --chat-max-width: 850px;
+}
+
+/* Global styles */
+.stApp {
+  background-color: var(--background-color);
+}
+
+/* Sidebar styling */
+.css-1d391kg {
+  background-color: white;
+  border-right: 1px solid #e1e4e8;
+}
+
+.sidebar-header {
+  padding: 1.5rem;
+  background: linear-gradient(120deg, #155799, #159957);
+  color: white;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.sidebar-divider {
+  height: 1px;
+  background: #e1e4e8;
+  margin: 1rem 0;
+}
+
+/* 控制右侧session信息展示的宽度和样式 */
+div[style*="background-color: transparent"] {
+  width: 400px !important;
+  max-width: 400px !important;
+  padding: 10px !important;
+  margin: 2px 0 !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  box-sizing: border-box !important;
+}
+
+/* 确保文本内容不会溢出 */
+div[style*="background-color: transparent"] p {
+  margin: 0 !important;
+  word-wrap: break-word !important;
+  white-space: normal !important;
+}
+
+/* Chat container styling */
+.chat-container {
+  max-width: var(--chat-max-width);
+  margin: 0 auto;
+  padding: 2rem;
+  padding-bottom: 100px;
+}
+
+.message-container {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.message {
+  max-width: 80%;
+  padding: 1rem 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.user-message {
+  background: linear-gradient(120deg, #1f6feb, #2e7ef8);
+  color: white;
+  border-bottom-right-radius: 0.5rem;
+  margin-left: auto;
+}
+
+.assistant-message {
+  background: white;
+  color: #24292f;
+  border-bottom-left-radius: 0.5rem;
+  margin-right: auto;
+}
+
+/* 优化status显示位置 */
+.stStatus {
+  margin-bottom: 20px;
+}
+
+/* Card styling */
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #1f6feb;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Time info styling */
+.time-info {
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #eee;
+}
+.analyze-button {
+  background: linear-gradient(120deg, #238636, #2ea043);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.analyze-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(35, 134, 54, 0.3);
+}
+
+/* Analysis result styling */
+.stSelectbox {
+  margin: 1rem 0;
+}
+
+/* Spinner styling */
+.stSpinner {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.community-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #1e88e5;
+}
+
+.community-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease;
+}
+
+.community-summary {
+  background-color: #f5f7fa;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.community-titles ul li {
+  color: #37474f;
+  line-height: 1.5;
+}
+
+.community-titles ul li:hover {
+  color: #1e88e5;
+}
