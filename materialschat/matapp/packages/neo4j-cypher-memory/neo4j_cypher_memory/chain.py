@@ -22,17 +22,13 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_openai import ChatOpenAI
 from arxivTool.arxivTool import get_embeddings
 
-
-# 加载.env文件
-load_dotenv("../.env")
-
-
-NEO4J_URI = os.environ.get("NEO4J_URI")
-NEO4J_USER = os.environ.get("NEO4J_USER")
-NEO4J_PASSWORD = os.environ.get("NEO4J_PASSWORD")
-
-SILICONFLOW_API_KEY = os.environ.get("SILICONFLOW_API_KEY")
-SILICONFLOW_API_BASE = os.environ.get("SILICONFLOW_API_BASE")
+load_dotenv("arxivTool/.env")
+ 
+SILICONFLOW_API_KEY = os.getenv("SILICONFLOW_API_KEY")
+SILICONFLOW_API_BASE = os.getenv("SILICONFLOW_API_BASE")
+NEO4J_URI = os.getenv("NEO4J_URI")
+NEO4J_USER = os.getenv("NEO4j_USER")
+NEO4J_PASSWORD = os.getenv("NEO4j_PASSWORD")
 
 # Connection to Neo4j
 graph = Neo4jGraph(
@@ -253,7 +249,6 @@ def get_function_response(
     ]
     return messages
 
-
 def get_arxiv_function_response(
     question: str, arxiv_context: str
 ) -> List[Union[AIMessage, ToolMessage]]:
@@ -298,7 +293,6 @@ chain = (
     )
     | save_history
 )
-
 
 # Add typing for input
 
