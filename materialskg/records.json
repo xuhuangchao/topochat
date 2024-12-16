@@ -1,0 +1,1805 @@
+﻿[
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 186629,
+        "labels": [
+          "Description"
+        ],
+        "properties": {
+          "cate": "description",
+          "name": "Bi2Se3 is Stibnite structured and crystallizes in the orthorhombic Pnma space group. The structure is two-dimensional and consists of two Bi2Se3 sheets oriented in the (0, 0, 1) direction. There are two inequivalent Bi sites. In the first Bi site, Bi(1) is bonded to two equivalent Se(1) and three equivalent Se(3) atoms to form BiSe5 square pyramids that share corners with two equivalent Bi(2)Se6 octahedra, edges with three equivalent Bi(2)Se6 octahedra, and edges with four equivalent Bi(1)Se5 square pyramids. The corner-sharing octahedral tilt angles are 8°. Both Bi(1)–Se(1) bond lengths are 2.86 Å. There is one shorter (2.72 Å) and two longer (3.11 Å) Bi(1)–Se(3) bond lengths. In the second Bi site, Bi(2) is bonded to one Se(1), two equivalent Se(3), and three equivalent Se(2) atoms to form distorted BiSe6 octahedra that share corners with two equivalent Bi(1)Se5 square pyramids, edges with four equivalent Bi(2)Se6 octahedra, and edges with three equivalent Bi(1)Se5 square pyramids. The Bi(2)–Se(1) bond length is 2.83 Å. Both Bi(2)–Se(3) bond lengths are 3.20 Å. There are two shorter (2.80 Å) and one longer (3.13 Å) Bi(2)–Se(2) bond length. There are three inequivalent Se sites. In the first Se site, Se(1) is bonded in a distorted T-shaped geometry to one Bi(2) and two equivalent Bi(1) atoms. In the second Se site, Se(2) is bonded in a 3-coordinate geometry to three equivalent Bi(2) atoms. In the third Se site, Se(3) is bonded to two equivalent Bi(2) and three equivalent Bi(1) atoms to form edge-sharing SeBi5 square pyramids."
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:186629"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 819164,
+            "start": 38584,
+            "end": 186629,
+            "type": "HAS_DESCRIPTION",
+            "properties": {
+
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:819164",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:186629"
+          },
+          "end": {
+            "identity": 186629,
+            "labels": [
+              "Description"
+            ],
+            "properties": {
+              "cate": "description",
+              "name": "Bi2Se3 is Stibnite structured and crystallizes in the orthorhombic Pnma space group. The structure is two-dimensional and consists of two Bi2Se3 sheets oriented in the (0, 0, 1) direction. There are two inequivalent Bi sites. In the first Bi site, Bi(1) is bonded to two equivalent Se(1) and three equivalent Se(3) atoms to form BiSe5 square pyramids that share corners with two equivalent Bi(2)Se6 octahedra, edges with three equivalent Bi(2)Se6 octahedra, and edges with four equivalent Bi(1)Se5 square pyramids. The corner-sharing octahedral tilt angles are 8°. Both Bi(1)–Se(1) bond lengths are 2.86 Å. There is one shorter (2.72 Å) and two longer (3.11 Å) Bi(1)–Se(3) bond lengths. In the second Bi site, Bi(2) is bonded to one Se(1), two equivalent Se(3), and three equivalent Se(2) atoms to form distorted BiSe6 octahedra that share corners with two equivalent Bi(1)Se5 square pyramids, edges with four equivalent Bi(2)Se6 octahedra, and edges with three equivalent Bi(1)Se5 square pyramids. The Bi(2)–Se(1) bond length is 2.83 Å. Both Bi(2)–Se(3) bond lengths are 3.20 Å. There are two shorter (2.80 Å) and one longer (3.13 Å) Bi(2)–Se(2) bond length. There are three inequivalent Se sites. In the first Se site, Se(1) is bonded in a distorted T-shaped geometry to one Bi(2) and two equivalent Bi(1) atoms. In the second Se site, Se(2) is bonded in a 3-coordinate geometry to three equivalent Bi(2) atoms. In the third Se site, Se(3) is bonded to two equivalent Bi(2) and three equivalent Bi(1) atoms to form edge-sharing SeBi5 square pyramids."
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:186629"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 113179,
+        "labels": [
+          "CellParams"
+        ],
+        "properties": {
+          "cate": "cell_params",
+          "name": "{'a': '4.14Å', 'b': '11.61Å', 'c': '12.24Å', 'alpha': '90.0°', 'beta': '90.0°', 'gamma': '90.0°'}"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:113179"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 468607,
+            "start": 38584,
+            "end": 113179,
+            "type": "HAS_CELL_PARAMS",
+            "properties": {
+
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:468607",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:113179"
+          },
+          "end": {
+            "identity": 113179,
+            "labels": [
+              "CellParams"
+            ],
+            "properties": {
+              "cate": "cell_params",
+              "name": "{'a': '4.14Å', 'b': '11.61Å', 'c': '12.24Å', 'alpha': '90.0°', 'beta': '90.0°', 'gamma': '90.0°'}"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:113179"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 24069,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-776356",
+          "name": "Li2SbS2"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:24069"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283893,
+            "start": 38584,
+            "end": 24069,
+            "type": "SIMILAR_TO",
+            "properties": {
+              "similarity": "43.61%"
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283893",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:24069"
+          },
+          "end": {
+            "identity": 24069,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-776356",
+              "name": "Li2SbS2"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:24069"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 38582,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-27490",
+          "matid": "MAT00012954",
+          "name": "Te2AuCl",
+          "icsd_ids": "[16324]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38582"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283892,
+            "start": 38584,
+            "end": 38582,
+            "type": "SIMILAR_TO",
+            "properties": {
+              "similarity": "43.74%"
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283892",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38582"
+          },
+          "end": {
+            "identity": 38582,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-27490",
+              "matid": "MAT00012954",
+              "name": "Te2AuCl",
+              "icsd_ids": "[16324]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38582"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 49956,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-2809",
+          "matid": "MAT00010100",
+          "name": "Sb2S3",
+          "icsd_ids": "[194821,194820,95557,30779,99795,41929,99796,95556,95558,650802,99799,99794,171853,22176,650808,99797,650809,650806,99800,171852,171851,650804,604468,99798,425648,26751,171850,95555,650810,171568,653959]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:49956"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283891,
+            "start": 38584,
+            "end": 49956,
+            "type": "SIMILAR_TO",
+            "properties": {
+              "similarity": "54.21%"
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283891",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:49956"
+          },
+          "end": {
+            "identity": 49956,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-2809",
+              "matid": "MAT00010100",
+              "name": "Sb2S3",
+              "icsd_ids": "[194821,194820,95557,30779,99795,41929,99796,95556,95558,650802,99799,99794,171853,22176,650808,99797,650809,650806,99800,171852,171851,650804,604468,99798,425648,26751,171850,95555,650810,171568,653959]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:49956"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 49955,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-22856",
+          "matid": "MAT00011656",
+          "name": "Bi2S3",
+          "icsd_ids": "[604448,171570,89324,153949,153951,617021,153953,617019,89325,171863,30775,617018,89323,201066,617028,153947,171864,153950,153946,153952,171865,617027,153948]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:49955"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283890,
+            "start": 38584,
+            "end": 49955,
+            "type": "SIMILAR_TO",
+            "properties": {
+              "similarity": "60.62%"
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283890",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:49955"
+          },
+          "end": {
+            "identity": 49955,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-22856",
+              "matid": "MAT00011656",
+              "name": "Bi2S3",
+              "icsd_ids": "[604448,171570,89324,153949,153951,617021,153953,617019,89325,171863,30775,617018,89323,201066,617028,153947,171864,153950,153946,153952,171865,617027,153948]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:49955"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 64336,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-2160",
+          "matid": "MAT00011421",
+          "name": "Sb2Se3",
+          "icsd_ids": "[194836,194837,16680,651516,651519,651518,651521,651515,171569,85676,30973]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:64336"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283889,
+            "start": 38584,
+            "end": 64336,
+            "type": "SIMILAR_TO",
+            "properties": {
+              "similarity": "65.16%"
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283889",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:64336"
+          },
+          "end": {
+            "identity": 64336,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-2160",
+              "matid": "MAT00011421",
+              "name": "Sb2Se3",
+              "icsd_ids": "[194836,194837,16680,651516,651519,651518,651521,651515,171569,85676,30973]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:64336"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 71129,
+        "labels": [
+          "ShearModulus"
+        ],
+        "properties": {
+          "cate": "shear_modulus",
+          "name": "{'voigt': 11.727, 'reuss': 30.764, 'vrh': 21.246}"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:71129"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283888,
+            "start": 38584,
+            "end": 71129,
+            "type": "HAS_ELASTICITY_PROPERTY",
+            "properties": {
+
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283888",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:71129"
+          },
+          "end": {
+            "identity": 71129,
+            "labels": [
+              "ShearModulus"
+            ],
+            "properties": {
+              "cate": "shear_modulus",
+              "name": "{'voigt': 11.727, 'reuss': 30.764, 'vrh': 21.246}"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:71129"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 71128,
+        "labels": [
+          "BulkModulus"
+        ],
+        "properties": {
+          "cate": "bulk_modulus",
+          "name": "{'voigt': 22.282, 'reuss': 11.648, 'vrh': 16.965}"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:71128"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283887,
+            "start": 38584,
+            "end": 71128,
+            "type": "HAS_ELASTICITY_PROPERTY",
+            "properties": {
+
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283887",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:71128"
+          },
+          "end": {
+            "identity": 71128,
+            "labels": [
+              "BulkModulus"
+            ],
+            "properties": {
+              "cate": "bulk_modulus",
+              "name": "{'voigt': 22.282, 'reuss': 11.648, 'vrh': 16.965}"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:71128"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 32,
+        "labels": [
+          "MagneticOrdering"
+        ],
+        "properties": {
+          "cate": "ordering",
+          "name": "non-magnetic"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:32"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283886,
+            "start": 38584,
+            "end": 32,
+            "type": "HAS_MAGNETIC_PROPERTY",
+            "properties": {
+
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283886",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:32"
+          },
+          "end": {
+            "identity": 32,
+            "labels": [
+              "MagneticOrdering"
+            ],
+            "properties": {
+              "cate": "ordering",
+              "name": "non-magnetic"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:32"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 28466,
+        "labels": [
+          "RefractiveIndex"
+        ],
+        "properties": {
+          "cate": "n",
+          "name": 4.036
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:28466"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283885,
+            "start": 38584,
+            "end": 28466,
+            "type": "HAS_DIELECTRIC_PROPERTY",
+            "properties": {
+
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283885",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:28466"
+          },
+          "end": {
+            "identity": 28466,
+            "labels": [
+              "RefractiveIndex"
+            ],
+            "properties": {
+              "cate": "n",
+              "name": 4.036
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:28466"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 71127,
+        "labels": [
+          "ElectronicDielectricConstant"
+        ],
+        "properties": {
+          "cate": "e_electronic",
+          "name": 16.288
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:71127"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283884,
+            "start": 38584,
+            "end": 71127,
+            "type": "HAS_DIELECTRIC_PROPERTY",
+            "properties": {
+
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283884",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:71127"
+          },
+          "end": {
+            "identity": 71127,
+            "labels": [
+              "ElectronicDielectricConstant"
+            ],
+            "properties": {
+              "cate": "e_electronic",
+              "name": 16.288
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:71127"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 71126,
+        "labels": [
+          "IonicDielectricConstant"
+        ],
+        "properties": {
+          "cate": "e_ionic",
+          "name": 47.691
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:71126"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283883,
+            "start": 38584,
+            "end": 71126,
+            "type": "HAS_DIELECTRIC_PROPERTY",
+            "properties": {
+
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283883",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:71126"
+          },
+          "end": {
+            "identity": 71126,
+            "labels": [
+              "IonicDielectricConstant"
+            ],
+            "properties": {
+              "cate": "e_ionic",
+              "name": 47.691
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:71126"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 71125,
+        "labels": [
+          "TotalDielectricConstant"
+        ],
+        "properties": {
+          "cate": "e_total",
+          "name": 63.979
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:71125"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283882,
+            "start": 38584,
+            "end": 71125,
+            "type": "HAS_DIELECTRIC_PROPERTY",
+            "properties": {
+
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283882",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:71125"
+          },
+          "end": {
+            "identity": 71125,
+            "labels": [
+              "TotalDielectricConstant"
+            ],
+            "properties": {
+              "cate": "e_total",
+              "name": 63.979
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:71125"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 31,
+        "labels": [
+          "IsStable"
+        ],
+        "properties": {
+          "cate": "is_stable",
+          "name": "not stable"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:31"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283881,
+            "start": 38584,
+            "end": 31,
+            "type": "HAS_THERMO_PROPERTY",
+            "properties": {
+
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283881",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:31"
+          },
+          "end": {
+            "identity": 31,
+            "labels": [
+              "IsStable"
+            ],
+            "properties": {
+              "cate": "is_stable",
+              "name": "not stable"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:31"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 3256,
+        "labels": [
+          "EnergyAboveHull"
+        ],
+        "properties": {
+          "cate": "energy_above_hull",
+          "name": "0.015 eV/atom"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:3256"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283880,
+            "start": 38584,
+            "end": 3256,
+            "type": "HAS_THERMO_PROPERTY",
+            "properties": {
+
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283880",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:3256"
+          },
+          "end": {
+            "identity": 3256,
+            "labels": [
+              "EnergyAboveHull"
+            ],
+            "properties": {
+              "cate": "energy_above_hull",
+              "name": "0.015 eV/atom"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:3256"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 294,
+        "labels": [
+          "ThermoType"
+        ],
+        "properties": {
+          "cate": "thermo_type",
+          "name": "R2SCAN"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:294"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283879,
+            "start": 38584,
+            "end": 294,
+            "type": "HAS_THERMO_PROPERTY",
+            "properties": {
+
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283879",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:294"
+          },
+          "end": {
+            "identity": 294,
+            "labels": [
+              "ThermoType"
+            ],
+            "properties": {
+              "cate": "thermo_type",
+              "name": "R2SCAN"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:294"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 371,
+        "labels": [
+          "SynthesisType"
+        ],
+        "properties": {
+          "cate": "synthesis_type",
+          "name": "solid-state"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:371"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283878,
+            "start": 38584,
+            "end": 371,
+            "type": "HAS_SYNTHESIS_TYPE",
+            "properties": {
+
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283878",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:371"
+          },
+          "end": {
+            "identity": 371,
+            "labels": [
+              "SynthesisType"
+            ],
+            "properties": {
+              "cate": "synthesis_type",
+              "name": "solid-state"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:371"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 54,
+        "labels": [
+          "IsMetal"
+        ],
+        "properties": {
+          "cate": "is_metal",
+          "name": "non-metal"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:54"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283877,
+            "start": 38584,
+            "end": 54,
+            "type": "IS_METAL",
+            "properties": {
+
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283877",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:54"
+          },
+          "end": {
+            "identity": 54,
+            "labels": [
+              "IsMetal"
+            ],
+            "properties": {
+              "cate": "is_metal",
+              "name": "non-metal"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:54"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 2,
+        "labels": [
+          "TopoClass"
+        ],
+        "properties": {
+          "cate": "nsoc_top_class",
+          "name": "trivial insulator"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:2"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283876,
+            "start": 38584,
+            "end": 2,
+            "type": "HAS_TOPO_CLASS",
+            "properties": {
+
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283876",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:2"
+          },
+          "end": {
+            "identity": 2,
+            "labels": [
+              "TopoClass"
+            ],
+            "properties": {
+              "cate": "nsoc_top_class",
+              "name": "trivial insulator"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:2"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 1,
+        "labels": [
+          "TopoClass"
+        ],
+        "properties": {
+          "cate": "soc_top_class",
+          "name": "trivial insulator"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:1"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283875,
+            "start": 38584,
+            "end": 1,
+            "type": "HAS_TOPO_CLASS",
+            "properties": {
+
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283875",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:1"
+          },
+          "end": {
+            "identity": 1,
+            "labels": [
+              "TopoClass"
+            ],
+            "properties": {
+              "cate": "soc_top_class",
+              "name": "trivial insulator"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:1"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 22508,
+        "labels": [
+          "SOC_INDICATOR"
+        ],
+        "properties": {
+          "cate": "soc_indicator",
+          "name": "Z4",
+          "value": "[0]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:22508"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283874,
+            "start": 38584,
+            "end": 22508,
+            "type": "HAS_SOC_INDICATOR",
+            "properties": {
+
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283874",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:22508"
+          },
+          "end": {
+            "identity": 22508,
+            "labels": [
+              "SOC_INDICATOR"
+            ],
+            "properties": {
+              "cate": "soc_indicator",
+              "name": "Z4",
+              "value": "[0]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:22508"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 41158,
+        "labels": [
+          "Gap"
+        ],
+        "properties": {
+          "cate": "soc_indirect_gap",
+          "name": "0.718 eV"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:41158"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283873,
+            "start": 38584,
+            "end": 41158,
+            "type": "HAS_GAP",
+            "properties": {
+
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283873",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:41158"
+          },
+          "end": {
+            "identity": 41158,
+            "labels": [
+              "Gap"
+            ],
+            "properties": {
+              "cate": "soc_indirect_gap",
+              "name": "0.718 eV"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:41158"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 39489,
+        "labels": [
+          "Gap"
+        ],
+        "properties": {
+          "cate": "soc_dos_gap",
+          "name": "0.701 eV"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:39489"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283872,
+            "start": 38584,
+            "end": 39489,
+            "type": "HAS_GAP",
+            "properties": {
+
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283872",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:39489"
+          },
+          "end": {
+            "identity": 39489,
+            "labels": [
+              "Gap"
+            ],
+            "properties": {
+              "cate": "soc_dos_gap",
+              "name": "0.701 eV"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:39489"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 38584,
+        "labels": [
+          "Formula"
+        ],
+        "properties": {
+          "cate": "formula",
+          "mp_id": "mp-23164",
+          "matid": "MAT00010230",
+          "name": "Bi2Se3",
+          "icsd_ids": "[617093,171571,60205]"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+      },
+      "end": {
+        "identity": 71124,
+        "labels": [
+          "Gap"
+        ],
+        "properties": {
+          "cate": "nsoc_indirect_gap",
+          "name": "0.961 eV"
+        },
+        "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:71124"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 38584,
+            "labels": [
+              "Formula"
+            ],
+            "properties": {
+              "cate": "formula",
+              "mp_id": "mp-23164",
+              "matid": "MAT00010230",
+              "name": "Bi2Se3",
+              "icsd_ids": "[617093,171571,60205]"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584"
+          },
+          "relationship": {
+            "identity": 283871,
+            "start": 38584,
+            "end": 71124,
+            "type": "HAS_GAP",
+            "properties": {
+
+            },
+            "elementId": "5:a2d4a0e5-de14-43e9-ac52-e075b655c059:283871",
+            "startNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:38584",
+            "endNodeElementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:71124"
+          },
+          "end": {
+            "identity": 71124,
+            "labels": [
+              "Gap"
+            ],
+            "properties": {
+              "cate": "nsoc_indirect_gap",
+              "name": "0.961 eV"
+            },
+            "elementId": "4:a2d4a0e5-de14-43e9-ac52-e075b655c059:71124"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  }
+]
