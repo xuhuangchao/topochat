@@ -22,7 +22,7 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_openai import ChatOpenAI
 
 # 加载.env文件
-load_dotenv("D:/PycharmProjects/topochat/materialschat/matapp/packages/neo4j-cypher-memory/.env")
+load_dotenv(".env")
 
 
 SILICONFLOW_API_KEY = os.environ.get("SILICONFLOW_API_KEY")

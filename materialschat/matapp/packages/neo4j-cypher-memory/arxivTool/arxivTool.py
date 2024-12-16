@@ -24,11 +24,10 @@ import matplotlib.pyplot as plt
 nltk.download("punkt")
 
 # 加载.env文件
-load_dotenv("../.env")
+load_dotenv(".env")
 
-SILICONFLOW_API_KEY = os.environ["SILICONFLOW_API_KEY"]
-SILICONFLOW_API_BASE = os.environ["SILICONFLOW_API_BASE"]
-
+SILICONFLOW_API_KEY = os.getenv("SILICONFLOW_API_KEY")
+SILICONFLOW_API_BASE = os.getenv("SILICONFLOW_API_BASE")
 
 # 使用ArxivExplorer获取相关文献摘要
 def fetch_arxiv_summaries_byexplorer(user_question):
@@ -80,7 +79,7 @@ def fetch_arxiv_summaries_byexplorer(user_question):
             driver.quit()
 
 
-def get_embeddings(texts, model="BAAI/bge-m3", token="your-token-here"):
+def get_embeddings(texts, model="Pro/BAAI/bge-m3", token="your-token-here"):
     url = "https://api.siliconflow.cn/v1/embeddings"
     headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
 

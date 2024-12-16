@@ -22,9 +22,7 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_openai import ChatOpenAI
 from arxivTool.arxivTool import get_embeddings
 
-
-# 加载.env文件
-# load_dotenv("../.env")
+load_dotenv(".env")
 
 
 NEO4J_URI = os.environ.get("NEO4J_URI")
